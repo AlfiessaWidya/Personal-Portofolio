@@ -19,3 +19,8 @@ I'm a fresh graduate majoring in Informatics, passionate about turning ideas int
 - Programming Languages I use  
 - Highlighted Projects (Portfolio)  
 - Contact section
+
+---
+
+📫 **Interested in working together or learning more?**  
+Feel free to reach out and [visit my LinkedIn profile](https://www.linkedin.com/in/alfiessa) for more info and updates.
