@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +24,7 @@
                 <div class="hidden md:flex space-x-10 items-center">
                     <a href="#" class="text-gray-800 hover:text-purple-800 transition duration-300">Home</a>
                     <a href="#about" class="text-gray-800 hover:text-purple-800 transition duration-300">About</a>
-                    <a href="#portfolio" class="text-gray-800 hover:text-purple-800 transition duration-300">Portfolio</a>
+                    <a href="#portfolio" class="text-gray-800 hover:text-purple-800 transition duration-300">Portofolio</a>
                     <a href="#contact" class="px-4 py-2 bg-purple-800 text-white rounded-md hover:bg-purple-800 transition duration-300">Contact</a>
                 </div>
 
@@ -50,7 +50,7 @@
 
     <!-- ✅ Hero Section - From Code to Insight -->
     <section class="bg-gradient-to-b from-white to-purple-50 pt-28 pb-20 font-worksans">
-        <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-12">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-12">
             <!-- Left Text Content -->
             <div class="w-full md:w-1/2 text-center md:text-left">
                 <h1 class="text-5xl md:text-5xl font-extrabold text-gray-900 leading-tight animate-fade-in">
@@ -91,14 +91,27 @@
     </section>
 
 
-    <!-- ✅ About Me Section - Card Style -->
-    <section id="about" class="bg-white py-15 font-worksans">
+    <!-- ✅ About Me Section -->
+    <section id="about" class="bg-white py-20 font-worksans">
         <div class="max-w-6xl mx-auto px-4">
             <div class="bg-white shadow-2xl rounded-xl p-6 md:p-20 flex flex-col md:flex-row items-center gap-20">
 
-            <!-- Profile Photo -->
-            <div class="flex-shrink-0">
-                <img src="assets/profile_image_2.png" alt="Alfiessa Widya" class="max-w-sm h-auto rounded-md shadow-md" />
+            <div class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden font-worksans">
+                <!-- Image -->
+                <img src="assets/profile_image_2.png" alt="Profile Photo" class="w-full object-cover rounded-t-xl" />
+
+                <!-- Button Sosial Media -->
+                <div class="flex justify-center -mt-8 ">
+                    <!-- Instagram Button -->
+                    <a href="https://www.instagram.com/alfiessaww" dir="ltr" target="_blank" class="bg-white px-4 py-4 shadow-lg flex items-center space-x-2 rounded-s-lg hover:scale-105 transition">
+                    <img src="assets/icons/instagram.png" alt="Instagram" class="h-5 w-5" />
+                    </a>
+
+                    <!-- Button Button -->
+                    <a href="https://www.linkedin.com/in/alfiessa" dir="rtl" target="_blank" class="bg-purple-700 px-4 py-4 shadow-lg flex items-center space-x-2 rounded-s-lg hover:scale-105 transition">
+                    <img src="assets/icons/linkedin.png" alt="LinkedIn" class="h-5 w-5 " />
+                    </a>
+                </div>
             </div>
 
             <!-- Text Content -->
@@ -112,7 +125,7 @@
                 <!-- Buttons -->
                 <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
                 <a href="#portfolio" class="px-5 py-2 bg-purple-800 text-white rounded-md hover:bg-purple-700 transition duration-300">
-                    My Portfolio
+                    My Portofolio
                 </a>
                 <a href="files/alfiessa-cv.pdf" download class="px-5 py-2 flex border border-purple-800 text-purple-800 rounded-md hover:bg-purple-50 transition duration-300">
                     <img src="assets/icons/download.png" alt="Download Icon" class="mr-2 h-5 w-5" /> Download CV
@@ -121,6 +134,191 @@
             </div>
         </div>
     </section>
+
+    <!-- ✅ How I Work Section -->
+    <section id="how-i-work" class="bg-gray-50 py-20 font-worksans">
+        <div class="max-w-6xl mx-auto px-4 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+                <!-- 🟣 Left Content: Title + Paragraph -->
+                <div class="flex flex-col justify-start">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">How I Work</h2>
+                    <p class="text-gray-600 text-lg leading-relaxed">
+                        I believe a solid process leads to meaningful results. With a structured, collaborative, and adaptive approach, I aim to ensure every project runs smoothly from start to finish. <br><br>
+                        From well-thought-out planning to detail-oriented execution, each step is driven by a focus on quality and impact.
+                    </p>
+                </div>
+
+                <!-- 🟣 Right Content: 4 Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-start">
+                    <!-- Card 1 -->
+                    <div class="bg-white p-5 rounded-xl shadow-xl hover:shadow-lg transition">
+                        <h3>🧭</h3>
+                        <h3 class="text-purple-800 font-semibold text-lg mt-2 mb-2">1. Well-Planned</h3>
+                        <p class="text-gray-600 text-sm">
+                        Every project starts with clear goals and a structured plan.
+                        </p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white p-5 rounded-xl shadow-xl hover:shadow-lg transition">
+                        <h3>🤝</h3>
+                        <h3 class="text-purple-800 font-semibold text-lg mt-4 mb-2">2. Collaborative</h3>
+                        <p class="text-gray-600 text-sm">
+                        Open communication and teamwork are key to great results.
+                        </p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white p-5 rounded-xl shadow-xl hover:shadow-lg transition">
+                        <h3>🔁</h3>
+                        <h3 class="text-purple-800 font-semibold text-lg mt-2 mb-2">3. Iterative & Adaptive</h3>
+                        <p class="text-gray-600 text-sm">
+                        I work in cycles, always ready to improve based on feedback.
+                        </p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="bg-white p-5 rounded-xl shadow-xl hover:shadow-lg transition">
+                        <h3>🧐</h3>
+                        <h3 class="text-purple-800 font-semibold text-lg mt-6 mb-2">4. Detail-Oriented</h3>
+                        <p class="text-gray-600 text-sm">
+                        I focus on precision and quality in every step of execution.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portofolio Section -->
+    <section id="portfolio" class="bg-white py-20 font-worksans">
+        <div class="max-w-7xl mx-auto px-4">
+            <!-- Section Title -->
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2">Portofolio</h2>
+                <p class="text-gray-600 text-lg">
+                    A collection of my selected projects <br> that showcase my skills in software development 
+                </p>
+            </div>
+
+            <!-- Project Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-50 rounded-xl shadow-lg hover:shadow-lg transition overflow-hidden">
+                    <img src="assets/carfin-cover.png" alt="Carfin Cover" class="w-full h-30 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-purple-800 mb-2">Carfin – AI Car Recommender App</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            A car recommendation system using GPT-4 and fine-tuned prompt dataset, integrated into Telegram with real-time interaction. Evaluated using BERT and cosine similarity.
+                        </p>
+                        <a href="https://github.com/AlfiessaWidya/Carfin-Cars-Recommender-System" target="_blank" class="text-purple-800 font-medium hover:underline text-sm">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition overflow-hidden">
+                    <img src="assets/epss-cover.png" alt="EPSS Dashboard Cover" class="w-full h-30 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-purple-800 mb-2">EPSS 2025 Management Dashboard</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Designed and developed a responsive, user-friendly interface using Bootstrap integrated with Laravel Blade templates. Focused on clean UI, intuitive navigation, and consistent component styling to enhance user experience across devices.
+                        </p>
+                        <a href="#" target="_blank" class="text-purple-800 font-medium hover:underline text-sm">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-gray-50 rounded-xl shadow-lg hover:shadow-lg transition overflow-hidden">
+                    <img src="assets/handspeak-cover.png" alt="HandSpeak Cover" class="w-full h-30 object-cover" />
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-purple-800 mb-2">HandSpeak – Sign Language App</h3>
+                        <p class="text-gray-600 text-sm mb-4">
+                            Developed a sign language translation app as a capstone project using Machine Learning and Computer Vision to recognize and interpret alphabet-based gestures (A–Z) from uploaded images. Aimed to support inclusive communication for speech-impaired users.
+                        </p>
+                        <a href="https://github.com/elvirawlndr/HandSpeak" target="_blank" class="text-purple-800 font-medium hover:underline text-sm">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Together Section -->
+    <section class="bg-gradient-to-r from-purple-400  to-purple-800 text-white py-20 font-worksans text-center px-4">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Got a project idea? <br> Let’s bring it to life together.</h2>
+            <p class="text-sm md:text-lg text-gray-300 mb-8 leading-relaxed">
+            I’m open to collaborations, freelance projects, or just a good tech talk. If you have an idea big or small, let’s connect and explore how we can build it together.
+            </p>
+            <a href="#contact" class="inline-block bg-white text-purple-800 px-6 py-3 rounded-md font-semibold shadow-md hover:bg-purple-100 transition duration-300">
+            Let’s work together
+            </a>
+        </div>
+    </section>
+
+    <!-- What I Do Section -->
+    <section class="bg-gray-50 py-20 font-worksans" id="what-i-do">
+        <div class="max-w-7xl mx-auto px-4 md:flex md:items-start md:gap-16">
+            <!-- Kiri: Deskripsi -->
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What I do?</h2>
+                <p class="text-gray-600 text-base md:text-lg leading-relaxed">
+                    I’m passionate about turning ideas into real solutions through technology. With a strong foundation in Mobile and Web Development, as well as a growing focus on Data Science, I enjoy building apps, crafting user-friendly interfaces, and extracting insights from data to solve real-world problems.  
+                    <br /><br />
+                    Whether it’s writing clean code, designing responsive layouts, or analyzing patterns. I love being hands-on in every part of the process.
+                </p>
+            </div>
+
+            <!-- Kanan: 3 Card Skill -->
+            <div class="md:w-1/2 space-y-6">
+                <!-- Web Development -->
+                <div class="bg-white shadow-md rounded-md p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-800 mb-2">Web Development</h3>
+                    <p class="text-gray-600">
+                    I create responsive and dynamic websites using HTML, CSS, JavaScript, PHP Laravel, and modern frameworks.
+                    </p>
+                </div>
+
+                <!-- Mobile Development -->
+                <div class="bg-white shadow-md rounded-md p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-800 mb-2">Mobile Development</h3>
+                    <p class="text-gray-600">
+                    I build intuitive and efficient mobile apps using Kotlin, Java, and Flutter focusing on performance and clean UI/UX.
+                    </p>
+                </div>
+
+                <!-- Data Science -->
+                <div class="bg-white shadow-md rounded-md p-6 hover:shadow-xl transition duration-300">
+                    <h3 class="text-xl font-semibold text-purple-800 mb-2">Data Science</h3>
+                    <p class="text-gray-600">
+                    I explore, analyze, and model data using Python and LLMs to extract insights and build smart, data-driven solutions.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-purple-800 text-white py-20 h-48 font-worksans">
+        <div class="max-w-7xl mx-auto px-2 flex flex-col md:flex-row justify-around items-center text-center md:text-left space-y-4 md:space-y-0 ">
+            <!-- Navigation / Quick Links -->
+            <div class="flex space-x-6">
+                <a href="#about" class="text-gray-300 hover:text-white transition duration-300">About</a>
+                <a href="#portfolio" class="text-gray-300 hover:text-white transition duration-300">Portfolio</a>
+                <a href="#contact" class="text-gray-300 hover:text-white transition duration-300">Contact</a>
+            </div>
+
+            <!-- Nama dan Tahun -->
+            <div>
+            <p class="text-sm text-gray-300">Copyright © 2025 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
 
     <!-- ✨ Simple Animation -->
     <style>
